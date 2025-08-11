@@ -3,7 +3,7 @@ name: "Terraform Workflow"
 on: 
   workflow_call:
     inputs:
-      enviroment:
+      environment:
         description: "Environment to deploy"
         required: true
         type: string
@@ -68,4 +68,4 @@ jobs:
         id: terraform-apply
         run: cd infra &&
           terraform workspace select ${{ inputs.environment }} || terraform workspace new ${{ inputs.environment }} &&
-          terraform apply "${{ inputs.enviroment }}.plan"
+          terraform apply "${{ inputs.environment }}.plan"

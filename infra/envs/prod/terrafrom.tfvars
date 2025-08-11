@@ -1,1 +1,1 @@
-bucket_name = "bucket-tabels-cidade-refugio"
+bucket_name = "prod-tables-cidade-refugio"

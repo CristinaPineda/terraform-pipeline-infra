@@ -1,0 +1,35 @@
+{
+  "interno": {
+    "nome": "João da Silva",
+    "dataNascimento": "2010-05-15",
+    "responsavel": "Maria da Silva",
+    "observacoes": "Paciente alérgico a penicilina.",
+    "endereco": {
+      "logradouro": "Rua das Flores",
+      "numero": "123",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    "telefones": [
+      "(11) 99999-9999",
+      "(11) 5555-5555"
+    ],
+    "documentos": [{
+      "tipo": "CPF",
+      "numero": "123.456.789-00"
+    },
+    {
+      "tipo": "RG",
+      "numero": "12.345.678-9"
+    },
+    {
+      "tipo": "Cartão SUS",
+      "numero": "1234 5678 9012 3456"
+    },
+    {
+      "tipo": "Habilitação",
+      "numero": "AB1234567"
+    }]
+  }
+}
+

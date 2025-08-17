@@ -4,6 +4,6 @@ variable "bucket_name" {
 }
 
 variable "environment" {
-  description = "Ambiente de implantação"
+  description = "dev or prod environment"
   type        = string
 }

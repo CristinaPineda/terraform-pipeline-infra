@@ -14,11 +14,6 @@ resource "aws_dynamodb_table" "ficha_admissao" {
     name = "nome"
     type = "S"
   }
-
-  tags = {
-    Name        = "FichaAdmissao"
-    Environment = var.environment
-  }
 }
 
 # Tabela 2: Tabela de Pertences
@@ -38,8 +33,4 @@ resource "aws_dynamodb_table" "pertences" {
     type = "S"
   }
 
-  tags = {
-    Name        = "Pertences"
-    Environment = var.environment
-  }
 }
